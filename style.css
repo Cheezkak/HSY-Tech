@@ -68,10 +68,9 @@ nav a:hover{
   margin:auto;
 }
 
-.quotes{
-  width:90%;
-  margin:auto;
-}
+li{
+    font-size:17px;
+    text-align: center;
 
 ol li{
   font-size:17px;
