@@ -54,10 +54,6 @@ p a{
   text-decoration: none;
 }
 
-p a:hover{
-  color: rgb(255, 0, 0);
-}
-    
 
 nav a{
   text-decoration:none;
