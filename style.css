@@ -80,15 +80,11 @@ ol li{
   color: white;
 }
 
-ol a{
-  color: rgb(0, 174, 255);
-  background-color: transparent;
-  text-decoration: none;
+ol a:hover{
+  color:rgb(255, 0, 0);
 }
 
-ol a:hover{
-  color: rgb(255, 0, 0);
-}
+
 
 h4{
   text-align: center;
