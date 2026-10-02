@@ -53,6 +53,12 @@ p a{
   background-color: transparent;
   text-decoration: none;
 }
+
+p a:hover{
+  color: rgb(255, 0, 0);
+  background-color: transparent;
+  text-decoration: none;
+}
     
 
 nav a{
