@@ -121,6 +121,95 @@
   }
 </style>
 
+
+
+            
+            <div class="link-box">
+<script src="catergory-box.js"></script>
+
+  <!-- Category buttons -->
+  <div class="link-tabs">
+    <button class="tab-button active" onclick="showCategory('category1', this)">
+      Category 1
+    </button>
+
+    <button class="tab-button" onclick="showCategory('category2', this)">
+      Category 2
+    </button>
+  </div>
+
+  <!-- Category 1 content -->
+  <div id="category1" class="category-content active">
+    <a href="https://example.com">Link 1</a>
+    <a href="https://example.com">Link 2</a>
+    <a href="https://example.com">Link 3</a>
+  </div>
+
+  <!-- Category 2 content -->
+  <div id="category2" class="category-content">
+    <a href="https://example.com">Link 4</a>
+    <a href="https://example.com">Link 5</a>
+    <a href="https://example.com">Link 6</a>
+  </div>
+
+</div>
+
+<style>
+  .link-box {
+    max-width: 600px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+  }
+
+  .link-tabs {
+    display: flex;
+    background: #f1f1f1;
+  }
+
+  .tab-button {
+    flex: 1;
+    padding: 12px 20px;
+    border: none;
+    background: #f1f1f1;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .tab-button:hover {
+    background: #ddd;
+  }
+
+  .tab-button.active {
+    background: #333;
+    color: white;
+  }
+
+  .category-content {
+    display: none;
+    padding: 20px;
+  }
+
+  .category-content.active {
+    display: block;
+  }
+
+  .category-content a {
+    display: block;
+    padding: 8px 0;
+    color: #0066cc;
+    text-decoration: none;
+  }
+
+  .category-content a:hover {
+    text-decoration: underline;
+  }
+</style>
+            
+
+
         
 
       </body>
