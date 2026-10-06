@@ -95,8 +95,47 @@
             <br>
        <img src="https://framerusercontent.com/images/zU7pokPvxiIodJI1SHcohjpAX4.png?width=258&height=258" alt="A description of the image">
             <p>Dane Smith, HSY Pastor</p>
-        <img src="https://wallpapers.com/images/hd/x-men-movie-the-wolverine-ohchod2kz5374z1j.jpg" alt="X Men Movie The Wolverine Wallpaper — A muscular man with claws extended stares intensely against a dark background wearing a white tank top." width="1536" height="2732" fetchpriority="high" decoding="async">
-    
+
+
+            <button id="scrollTopBtn" title="Scroll to top">↑</button>
+
+<style>
+  #scrollTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
+    border: none;
+    border-radius: 50%;
+    background: #333;
+    color: white;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  #scrollTopBtn:hover {
+    background: #555;
+  }
+</style>
+
+<script>
+  const scrollTopBtn = document.getElementById("scrollTopBtn");
+
+  window.addEventListener("scroll", function () {
+    scrollTopBtn.style.display = window.scrollY > 300 ? "block" : "none";
+  });
+
+  scrollTopBtn.addEventListener("click", function () {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
+</script>
+
         
 
       </body>
