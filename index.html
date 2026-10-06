@@ -98,43 +98,7 @@
 
 
             <button id="scrollTopBtn" title="Scroll to top">↑</button>
-
-<style>
-  #scrollTopBtn {
-    display: none;
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    z-index: 1000;
-    border: none;
-    border-radius: 50%;
-    background: #333;
-    color: white;
-    width: 50px;
-    height: 50px;
-    font-size: 24px;
-    cursor: pointer;
-  }
-
-  #scrollTopBtn:hover {
-    background: #555;
-  }
-</style>
-
-<script>
-  const scrollTopBtn = document.getElementById("scrollTopBtn");
-
-  window.addEventListener("scroll", function () {
-    scrollTopBtn.style.display = window.scrollY > 300 ? "block" : "none";
-  });
-
-  scrollTopBtn.addEventListener("click", function () {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth"
-    });
-  });
-</script>
+            <script src="scroll-to-top.js"></script>
 
         
 
