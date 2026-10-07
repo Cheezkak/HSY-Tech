@@ -1,7 +1,9 @@
+
 body{
     background-color:black;
     width: 80%;
     margin: 0px;
+    overflow-x: hidden;
   }
 
 h1{
