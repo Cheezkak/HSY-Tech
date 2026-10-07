@@ -30,6 +30,55 @@
             <a href="#Suggestions">Suggestions</a>
             <a href="#Resources">Resources</a>
         </aside>
+             <style>
+                 /* Page layout */
+                    .page-layout {
+                        display: flex;
+                        align-items: flex-start;
+                        gap: 40px;
+                    }
+                    
+                    /* Sidebar */
+                    .sidebar {
+                        position: sticky;
+                        top: 20px;
+                    
+                        width: 180px;
+                        flex-shrink: 0;
+                    
+                        padding: 20px;
+                    
+                        background-color: #363636;
+                        border-radius: 10px;
+                    }
+                    
+                    /* Sidebar title */
+                    .sidebar h3 {
+                        color: white;
+                        margin-top: 0;
+                    }
+                    
+                    /* Sidebar links */
+                    .sidebar a {
+                        display: block;
+                        color: white;
+                        text-decoration: none;
+                        padding: 10px 5px;
+                        border-radius: 5px;
+                    }
+                    
+                    /* Hover effect */
+                    .sidebar a:hover {
+                        background-color: #555;
+                        color: #ff0000;
+                    }
+                    
+                    /* Main content */
+                    .main-content {
+                        flex: 1;
+                        min-width: 0;
+                    }
+             </style>
 
 
         <!-- EVERYTHING ELSE GOES HERE -->
